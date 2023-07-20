@@ -22,6 +22,7 @@ console.log("get bitches fuck money");
 
 document.getElementById("butt1").addEventListener("click", () => {
   console.log("barter");
+	document.getElementById("title").textContext = "it works bruh";
   let dawg = new Audio("raw/dawg.ogg");
   dawg.load();
 	dawg.pause();
