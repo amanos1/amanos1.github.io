@@ -24,6 +24,8 @@ document.getElementById("butt1").addEventListener("click", () => {
   console.log("barter");
   let dawg = new Audio("raw/dawg.ogg");
   dawg.load();
+	dawg.pause();
+	dawg.currentTime = 0;
   dawg.play();
 });
 
