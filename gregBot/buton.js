@@ -22,8 +22,8 @@ console.log("get bitches fuck money");
 
 document.getElementById("butt1").addEventListener("click", () => {
   console.log("barter");
-	document.getElementById("title").innerHTML = "it works bruh";
-  let dawg = new Audio("raw/dawg.ogg");
+	document.getElementById("title").innerHTML = "if this works i'm gonna cum";
+  let dawg = new Audio("raw/dawg.mp3");
   dawg.load();
 	dawg.pause();
 	dawg.currentTime = 0;
