@@ -20,13 +20,11 @@ let button16 = document.getElementById("butt16");*/
 
 console.log("get bitches fuck money");
 
+let dawg = new Audio("raw/dawg.mp3");
+dawg.load();
+
 document.getElementById("butt1").addEventListener("click", () => {
-  console.log("barter");
-	document.getElementById("title").innerHTML = "if this works i'm gonna cum";
-  let dawg = new Audio("raw/dawg.mp3");
-  dawg.load();
-	dawg.pause();
-	dawg.currentTime = 0;
+	document.getElementById("title").innerHTML = "anotha test";
   dawg.play();
 });
 
