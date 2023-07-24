@@ -1,135 +1,83 @@
-/*let button1 = document.getElementById("butt1");
-let button2 = document.getElementById("butt2");
-let button3 = document.getElementById("butt3");
-let button4 = document.getElementById("butt4");
-let button5 = document.getElementById("butt5");
-let button6 = document.getElementById("butt6");
-let button7 = document.getElementById("butt7");
-let button8 = document.getElementById("butt8");
-let button9 = document.getElementById("butt9");
-let button10 = document.getElementById("butt10");
-let button11 = document.getElementById("butt11");
-let button12 = document.getElementById("butt12");
-let button13 = document.getElementById("butt13");
-let button14 = document.getElementById("butt14");
-let button15 = document.getElementById("butt15");
-let button16 = document.getElementById("butt16");*/
-
-//https://stackoverflow.com/questions/31776548/why-cant-javascript-play-audio-files-on-iphone-safari
-//https://stackoverflow.com/questions/70627754/why-does-this-audio-play-fail-on-ios-14
-
-console.log("get bitches fuck money");
-
-let dawg = new Audio("raw/dawg.mp3");
-dawg.load();
-
 document.getElementById("butt1").addEventListener("click", () => {
-	document.getElementById("title").innerHTML = "anotha test";
+  let dawg = new Audio("raw/dawg.mp3");
   dawg.play();
 });
-
 document.getElementById("butt2").addEventListener("click", () => {
-  let beer = new Audio("raw/one-beer.ogg");
-  beer.load();
-	beer.play();
+  let beer = new Audio("raw/one-beer.mp3");
+  beer.play();
 });
 
 document.getElementById("butt3").addEventListener("click", () => {
-	let twinkmoder = new Audio("raw/twinkmoder.ogg");
-  twinkmoder.load();
+  let twinkmoder = new Audio("raw/twinkmoder.mp3");
   twinkmoder.play();
 });
 
 document.getElementById("butt4").addEventListener("click", () => {
-  let windex = new Audio("raw/windex.ogg");
-  windex.load();
-	windex.play();
+  let windex = new Audio("raw/windex.mp3");
+  windex.play();
 });
 
 document.getElementById("butt5").addEventListener("click", () => {
-  let worlstar = new Audio("raw/worlstar.ogg");
-  worlstar.load();
-	worlstar.play();
+  let worlstar = new Audio("raw/worlstar.mp3");
+  worlstar.play();
 });
 
 document.getElementById("butt6").addEventListener("click", () => {
-  let damn = new Audio("raw/damn.ogg");
-  damn.load();
-	damn.play();
+  let damn = new Audio("raw/damn.mp3");
+  damn.play();
 });
 
 document.getElementById("butt7").addEventListener("click", () => {
-  let awesome = new Audio("raw/awesome.ogg");
-  awesome.load();
-	awesome.play();
+  let awesome = new Audio("raw/awesome.mp3");
+  awesome.play();
 });
 
 document.getElementById("butt8").addEventListener("click", () => {
-  let drip = new Audio("raw/drip.ogg");
-  drip.load();
-	drip.play();
+  let drip = new Audio("raw/drip.mp3");
+  drip.play();
 });
 
 document.getElementById("butt9").addEventListener("click", () => {
-  let mrpussy = new Audio("raw/mrpussy.ogg");
-  mrpussy.load();
-	mrpussy.play();
+  let mrpussy = new Audio("raw/mrpussy.mp3");
+  mrpussy.play();
 });
 
 document.getElementById("butt10").addEventListener("click", () => {
-  let meat = new Audio("raw/meat.ogg");
-  meat.load();
-	meat.play();
+  let meat = new Audio("raw/meat.mp3");
+  meat.play();
 });
 
 document.getElementById("butt11").addEventListener("click", () => {
-  let gender = new Audio("raw/gender.ogg");
-  gender.load();
-	gender.play();
+  let gender = new Audio("raw/gender.mp3");
+  gender.play();
 });
 
 document.getElementById("butt12").addEventListener("click", () => {
-  let slutthots = new Audio("raw/slut-thots.ogg");
-  slutthots.load();
-	slutthots.play();
+  let slutthots = new Audio("raw/slut-thots.mp3");
+  slutthots.play();
 });
 
 document.getElementById("butt13").addEventListener("click", () => {
-  let dwboutit = new Audio("raw/dwboutit.ogg");
-  dwboutit.load();
-	dwboutit.play();
+  let dwboutit = new Audio("raw/dwboutit.mp3");
+  dwboutit.play();
 });
 
 document.getElementById("butt14").addEventListener("click", () => {
-  let popsicle = new Audio("raw/popsicle.ogg");
-  popsicle.load();
-	popsicle.play();
+  let popsicle = new Audio("raw/popsicle.mp3");
+  popsicle.play();
 });
 
 document.getElementById("butt15").addEventListener("click", () => {
-  let meowfuckouttheway = new Audio("raw/meowfuckouttheway.ogg");
-  meowfuckouttheway.load();
-	meowfuckouttheway.play();
+  let meowfuckouttheway = new Audio("raw/meowfuckouttheway.mp3");
+  meowfuckouttheway.play();
 });
 
 document.getElementById("butt16").addEventListener("click", () => {
-  let voicemail = new Audio("raw/voicemail.ogg");
-	voicemail.play();
+  let fucknobaby = new Audio();
+  fucknobaby.play();
 });
 
-/*button1.addEventListener("click", playSound1);
-button2.addEventListener("click", playSound2);
-button3.addEventListener("click", playSound3);
-button4.addEventListener("click", playSound4);
-button5.addEventListener("click", playSound5);
-button6.addEventListener("click", playSound6);
-button7.addEventListener("click", playSound7);
-button8.addEventListener("click", playSound8);
-button9.addEventListener("click", playSound9);
-button10.addEventListener("click", playSound10);
-button11.addEventListener("click", playSound11);
-button12.addEventListener("click", playSound12);
-button13.addEventListener("click", playSound13);
-button14.addEventListener("click", playSound14);
-button15.addEventListener("click", playSound15);
-button16.addEventListener("click", playSound16);*/
+document.getElementById("butt17").addEventListener("click", () => {
+  let voicemail = new Audio("raw/voicemail.mp3");
+  voicemail.play();
+});
