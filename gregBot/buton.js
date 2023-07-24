@@ -2,6 +2,7 @@ document.getElementById("butt1").addEventListener("click", () => {
   let dawg = new Audio("raw/dawg.mp3");
   dawg.play();
 });
+
 document.getElementById("butt2").addEventListener("click", () => {
   let beer = new Audio("raw/one-beer.mp3");
   beer.play();
@@ -73,7 +74,7 @@ document.getElementById("butt15").addEventListener("click", () => {
 });
 
 document.getElementById("butt16").addEventListener("click", () => {
-  let fucknobaby = new Audio();
+  let fucknobaby = new Audio("raw/fucknobaby.mp3");
   fucknobaby.play();
 });
 
