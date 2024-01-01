@@ -1,0 +1,52 @@
+body {
+	background-image: url("denim.jpg");
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Bungee Spice', cursive;
+	font-size: 50px;
+}
+
+div {
+	background-color: blue;
+	width: fit-content;
+	padding: 0px 10px;
+	margin: 0 auto;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	text-align: center;
+}
+
+p {
+	background-color: #fcc2df;
+	width: fit-content;
+	text-align: center;
+	margin: 0px auto;
+}
+
+button {
+	width: 90%;
+	height: 70px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 5px solid fcc2df;
+	border-radius: 15px;
+	background-image: linear-gradient(#f3ab00, #c90b00);
+	font-size: 25px;
+	text-align: center;
+}
+
+.onlyone {
+	width: 97%;
+}
+
+button:onClick {
+	background-color: orange;
+}
+
